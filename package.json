@@ -1,0 +1,39 @@
+{
+  "name": "gatsby-starter",
+  "description": "Gatsby starter",
+  "version": "1.0.0",
+  "author": "Michael Stoller",
+  "browserslist": "last 2 versions",
+  "dependencies": {
+    "autoprefixer": "^8.0.0",
+    "cssnano": "^3.10.0",
+    "gatsby": "^1.9.158",
+    "gatsby-image": "^1.0.35",
+    "gatsby-link": "^1.6.34",
+    "gatsby-plugin-favicon": "^2.1.1",
+    "gatsby-plugin-google-analytics": "^1.0.19",
+    "gatsby-plugin-google-fonts": "0.0.3",
+    "gatsby-plugin-postcss-sass": "^1.0.17",
+    "gatsby-plugin-react-helmet": "^2.0.3",
+    "gatsby-plugin-sharp": "^1.6.27",
+    "gatsby-transformer-sharp": "^1.6.18",
+    "postcss-sorting": "^3.1.0",
+    "react-helmet": "^5.2.0",
+    "stylefmt": "^6.0.0",
+    "stylelint": "^8.4.0"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "prettier": "^1.10.2"
+  }
+}
